@@ -14,7 +14,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
-import com.android.ims.ImsManager;
+import android.telephony.ims.ImsManager;
 import com.qualcomm.ims.utils.Log;
 import org.codeaurora.ims.R;
 import android.app.AlertDialog;

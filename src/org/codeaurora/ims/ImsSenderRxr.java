@@ -57,8 +57,8 @@ import android.os.RegistrantList;
 import android.os.SystemProperties;
 import android.telephony.PhoneNumberUtils;
 
-import com.android.ims.ImsException;
-import com.android.ims.ImsReasonInfo;
+import android.telephony.ims.ImsException;
+import android.telephony.ims.ImsReasonInfo;
 import com.android.internal.telephony.CallForwardInfo;
 import com.android.internal.telephony.CommandsInterface;
 import com.android.internal.telephony.TelephonyIntents;

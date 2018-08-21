@@ -17,8 +17,8 @@ import android.os.Looper;
 import android.os.Message;
 import android.telephony.TelephonyManager;
 
-import com.android.ims.ImsConfig;
-import com.android.ims.ImsConfigListener;
+import android.telephony.ims.ImsConfig;
+import android.telephony.ims.ImsConfigListener;
 import com.android.ims.internal.IImsConfig;
 import com.android.internal.os.SomeArgs;
 import com.qualcomm.ims.utils.Log;
