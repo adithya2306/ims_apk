@@ -27,14 +27,14 @@ package org.codeaurora.ims;
 import org.codeaurora.ims.parser.ConfInfo;
 
 
-import com.android.ims.ImsCallProfile;
-import com.android.ims.ImsConferenceState;
+import android.telephony.ims.ImsCallProfile;
+import android.telephony.ims.ImsConferenceState;
 import com.android.ims.ImsException;
-import com.android.ims.ImsReasonInfo;
+import android.telephony.ims.ImsReasonInfo;
 import com.android.ims.ImsServiceClass;
-import com.android.ims.ImsStreamMediaProfile;
-import com.android.ims.ImsSuppServiceNotification;
-import com.android.ims.internal.ImsCallSession;
+import android.telephony.ims.ImsStreamMediaProfile;
+import android.telephony.ims.ImsSuppServiceNotification;
+import android.telephony.ims.ImsCallSession;
 import com.android.ims.internal.IImsCallSession;
 import com.android.ims.internal.IImsCallSessionListener;
 import com.android.ims.internal.IImsVideoCallProvider;

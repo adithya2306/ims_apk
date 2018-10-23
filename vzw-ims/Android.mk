@@ -25,8 +25,10 @@ LOCAL_PROPRIETARY_MODULE := true
 
 LOCAL_PROGUARD_ENABLED := disabled
 
+LOCAL_PRIVATE_PLATFORM_APIS := true
+
 LOCAL_AIDL_INCLUDES := $(call all-Iaidl-files-under, $(src_aidl))
-LOCAL_SRC_FILES := $(call all-java-files-under, $(src_java_ims)) \
+LOCAL_SRC_FILES := $(call all-java-files-under, $(src_java)) \
         $(LOCAL_AIDL_INCLUDES)
 
 LOCAL_AIDL_INCLUDES += frameworks/native/aidl/gui

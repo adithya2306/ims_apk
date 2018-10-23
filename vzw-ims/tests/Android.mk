@@ -11,6 +11,8 @@ LOCAL_JAVA_LIBRARIES += qti-vzw-ims-internal
 
 LOCAL_PACKAGE_NAME :=  com.qti.vzw.ims.internal.tests
 
+LOCAL_PRIVATE_PLATFORM_APIS := true
+
 LOCAL_PROGUARD_ENABLED := disabled
 
 LOCAL_CERTIFICATE := platform
